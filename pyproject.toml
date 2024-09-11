@@ -1,0 +1,15 @@
+[project]
+name = "file2task"
+version = "0.01"
+description = "Read tasks from a file in sequence and execute them"
+authors = [
+  { name = "Haishu Xianyu", email = "xyhs2010@126.com" }
+]
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+dependencies = [
+  "psutil",
+]
+
+[project.scripts]
+file2task = file2task:main_cli
