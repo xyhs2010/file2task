@@ -12,4 +12,4 @@ dependencies = [
 ]
 
 [project.scripts]
-file2task = file2task:main_cli
+file2task = "file2task:main_cli"
